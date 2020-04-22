@@ -8,15 +8,20 @@ html {
 }
 
 body {
-    background-color: linen;
+    background-image: url("../images/background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
 }
 
-#nav-bar {
+/* Nav Content */
+.nav-bar {
     position: relative;
     text-align: center;
     background-color: rgb(255, 204, 247);
     padding-top: 15px;
-    margin: 25px 35px;
 }
 
 #company-logo {
@@ -52,4 +57,50 @@ body {
     flex-basis: 20%;
     flex-grow: 1;
     margin-top: 15px;
+}
+/* Nav Content */
+
+/* Body Content */
+.body {
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 0;
+    margin: 25px 35px;
+}
+
+.home-product {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-basis: 33%;
+    flex-shrink: 0;
+    flex-grow: 0;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+
+.product-link #product-img{
+    width: 300px;
+    height: 300px;
+    border: 3px solid gray;
+}
+
+.product-link #price {
+    position: absolute;
+    bottom: -30px;
+    left: 45%;
+}
+/* Body Content */
+
+/* Footer Content */
+.footer {
+    background-color: greenyellow;
+    text-align: center;
+    padding: 15px;
+}
+
+.footer > i {
+    font-size: 20px;
 }
