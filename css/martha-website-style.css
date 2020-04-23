@@ -7,16 +7,6 @@ html {
     box-sizing: border-box;
 }
 
-@font-face {
-    font-family: MarthaBusinessFontHeader;
-    src: url(../fonts/Oleo_Script/OleoScript-Bold.ttf)
-}
-
-@font-face {
-    font-family: MarthaBusinessFont;
-    src: url(../fonts/Indie_Flower/IndieFlower-Regular.ttf);
-}
-
 body {
     background-image: url("../images/background-image.jpg");
     background-repeat: no-repeat;
@@ -24,71 +14,49 @@ body {
     background-attachment: fixed;
     padding: 0;
     margin: 0;
-    font-family: MarthaBusinessFont, sans-serif;
 }
 
 /* Nav Content */
 .nav-bar {
     position: relative;
     text-align: center;
-    background-color: rgba(255, 204, 247, 0.747);
+    background-color: rgb(255, 204, 247);
     padding-top: 15px;
 }
 
 #company-logo {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 
 #company-header {
     position: absolute;
-    font-family: MarthaBusinessFontHeader, sans-serif;
-    font-size: 35px;
-    bottom: 40%;
-    left: 49%;
+    bottom: 50%;
+    left: 50%;
     margin: 0;
 }
 
 #company-phrase {
     position: absolute;
-    bottom: 10%;
+    bottom: 35%;
     left: 50%;
-    font-size: 20px;
-    font-style: italic;
 }
 
-.fa-shopping-bag {
-    font-size: 50px;
-    position: absolute;
-    top: 30%;
-    right: 5%;
+.link-container {
+    display: flex;
+    background-color: red;
+    height: 50px;
+    margin-top: 15px;
 }
 
-.fa-shopping-bag .shopping-cart-number {
-    position: relative;
-    font-family: Arial, Helvetica, sans-serif;
-    top: -28px;
-    color: white;
-    font-size: 20px;
-}
-
+#products-link,
+#blog-link,
 #about-link,
 #contact-link {
-    position: absolute;
-    font-family: MarthaBusinessFontHeader, sans-serif;
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-}
-
-#about-link {
-    top: 45%;
-    left: 38%;
-}
-
-#contact-link {
-    top: 45%;
-    right: 32%;
+    flex-direction: row;
+    flex-basis: 20%;
+    flex-grow: 1;
+    margin-top: 15px;
 }
 /* Nav Content */
 
@@ -99,95 +67,40 @@ body {
     flex-wrap: wrap;
     flex-grow: 1;
     flex-shrink: 0;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin: 25px 35px;
 }
 
 .home-product {
     display: flex;
     position: relative;
-    height: 350px;
-    background-color: rgba(211, 211, 211, 0.65);
-    border-radius: 5px;
     flex-direction: row;
-    flex-basis: 45%;
+    flex-basis: 33%;
     flex-shrink: 0;
-    flex-grow: 1;
-    justify-content: flex-start;
+    flex-grow: 0;
+    justify-content: space-around;
     margin-bottom: 70px;
-    margin-right: 25px;
-    margin-left: 25px;
 }
 
 .product-link #product-img{
     width: 300px;
     height: 300px;
     border: 3px solid gray;
-    border-radius: 3px;
-    float: left;
-    margin-left: 25px;
-    margin-top: 25px;
-    transition-property: box-shadow;
-    transition-duration: 250ms;
 }
 
-.product-link #product-img:hover {
-    box-shadow: 4px 4px 3px gray;
-}
-
-.home-product #home-product-info {
-    padding: 5px 20px;
-    text-align: justify;
-    font-size: 17px;
-}
-
-.home-product .add-to-cart-button {
+.product-link #price {
     position: absolute;
-    width: 200px;
-    height: 60px;
-    left: 55%;
-    bottom: 13%;
-    font-family: MarthaBusinessFontHeader, sans-serif;
-    text-decoration: none;
-    font-size: 22px;
-    background-color: rgb(247, 195, 227);
-    border: 2px solid rgb(226, 162, 173);
-    border-radius: 15px;
-    cursor: pointer;
-    outline: none;
-    transition-property: background-color;
-    transition-duration: 250ms;
-}
-
-.home-product .add-to-cart-button:hover {
-    background-color: rgb(226, 162, 173);
-}
-
-.home-product .add-to-cart-button:active {
-    background-color: rgb(175, 124, 133);
+    bottom: -30px;
+    left: 45%;
 }
 /* Body Content */
 
 /* Footer Content */
 .footer {
-    background-color: rgba(103, 107, 96, 0.733);
+    background-color: greenyellow;
     text-align: center;
     padding: 15px;
+}
+
+.footer > i {
     font-size: 20px;
-    color: rgb(235, 241, 241);
 }
-
-.footer > a > i {
-    text-decoration: none;
-    color: rgb(235, 241, 241);
-    font-size: 25px;
-    margin-top: 10px;
-    padding: 0 5px;
-    transition-property: color;
-    transition-duration: 250ms;
-}
-
-.footer > a > i:hover {
-    color: rgb(226, 162, 173);
-}
-/* Footer Content */
