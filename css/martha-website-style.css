@@ -62,6 +62,7 @@ body {
     position: absolute;
     top: 30%;
     right: 5%;
+    color: black;
 }
 
 .fa-shopping-bag .shopping-cart-number {
