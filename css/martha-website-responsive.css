@@ -1,5 +1,6 @@
 /* Responsive Design */
 @media(max-width: 2560px) {
+    /* -------------- home.html ------------------------ */
     /* Nav Bar */
     #company-logo {
         width: 200px;
@@ -81,9 +82,62 @@
         font-size: 35px;
     }
     /* Footer Content */
+    /* -------------- home.html ------------------------ */
+
+    /* -------------- about.html ----------------------- */
+    #about-header {
+        font-size: 37px;
+    }
+    
+    #about-story {
+        font-size: 27px;
+    }
+    /* -------------- about.html ----------------------- */
+
+    /* ------------- contact.html ---------------- */
+    .contact-section {
+        height: 650px;
+    }
+    #contact-form label {
+        font-size: 22px;
+    }
+    
+    #contact-form [type="text"]{
+        height: 40px;
+        padding: 5px;
+        margin-right: 50px;
+        margin-bottom: 20px;
+    }
+    
+    #contact-form button {
+        margin-top: 10px;
+        background-color: rgb(247, 195, 227);
+        border: 2px solid rgb(226, 162, 173);
+        width: 175px;
+        height: 75px;
+    }
+    
+    #contact-form button:hover {
+        background-color: rgb(226, 162, 173);
+    }
+    
+    #contact-form button:active {
+        background-color: rgb(175, 124, 133);
+    }
+    
+    #contact-form textarea {
+        margin-top: 10px;
+        width: 675px;
+        height: 255px;
+        resize: none;
+        overflow: auto;
+        font-size: 16px;
+    }
+    /* ------------- contact.html ---------------- */
 }
 
 @media(max-width: 1920px) {
+    /* -------------- home.html ------------------------ */
     /* Nav Content */
     #company-logo {
         width: 150px;
@@ -171,9 +225,21 @@
         font-size: 25px;
     }
     /* Footer Content */
+    /* -------------- home.html ------------------------ */
+
+    /* -------------- about.html ----------------------- */
+    #about-header {
+        font-size: 30px;
+    }
+    
+    #about-story {
+        font-size: 20px;
+    }
+    /* -------------- about.html ----------------------- */
 }
 
 @media(max-width: 1440px) {
+    /* -------------- home.html ------------------------ */
     /* Nav Bar */
     #about-link {
         top: 45%;
@@ -234,9 +300,11 @@
     /* No changes to footer content */
 
     /* Footer Content */
+    /* -------------- home.html ------------------------ */
 }
 
 @media(max-width: 1024px) {
+    /* -------------- home.html ------------------------ */
     /* Nav Content */
     #company-logo {
         width: 125px;
@@ -311,9 +379,25 @@
     /* No changes to footer content */
 
     /* Footer Content */
+    /* -------------- home.html ------------------------ */
+
+    /* -------------- about.html ----------------------- */
+    #about-header {
+        font-size: 26px;
+    }
+    
+    #about-story {
+        font-size: 19px;
+    }
+
+    #about-story h4 {
+        margin: 0 100px;
+    }
+    /* -------------- about.html ----------------------- */
 }
 
 @media(max-width: 768px) {
+    /* -------------- home.html ------------------------ */
     /* Nav Content */
     #company-logo {
         width: 125px;
@@ -399,9 +483,17 @@
         font-size: 20px;
     }
     /* Footer Content */
+    /* -------------- home.html ------------------------ */
+
+    /* -------------- about.html ----------------------- */
+    #about-story h4 {
+        margin: 0 65px;
+    }
+    /* -------------- about.html ----------------------- */
 }
 
 @media(max-width:425px) {
+    /* -------------- home.html ------------------------ */
     /* Nav Content */
     #company-logo {
         width: 100px;
@@ -495,9 +587,49 @@
         font-size: 16px;
     }
     /* Footer Content */
+    /* -------------- home.html ------------------------ */
+
+    /* -------------- about.html ----------------------- */
+    #about-story {
+        font-size: 15px;
+    }
+
+    #about-story h4 {
+        margin: 0 30px;
+    }
+    /* -------------- about.html ----------------------- */
+
+    /* -------------- contact.html ----------------------- */
+    .contact-section {
+        flex-basis: 100%;
+        background-color: rgba(240, 255, 240, 0.65);
+        text-align: center;
+        margin: 25px 0;
+        height: 625px;
+    }
+    
+    .contact-section #contact-header {
+        font-size: 18px;
+    }
+    
+    #contact-form label {
+        display: block;
+        font-size: 15px;
+    }
+    
+    #contact-form [type="text"]{
+        margin: 10px auto;
+    }
+    
+    #contact-form textarea {
+        width: 300px;
+        height: 155px;
+    }
+    /* -------------- contact.html ----------------------- */
 }
 
 @media(max-width:375px) {
+    /* -------------- home.html ------------------------ */
     /* Nav Content */   
     /* ---- No Changes to Nav Content ---- */
     /* Nav Content */
@@ -527,9 +659,30 @@
     /* Footer Content */
     /* ---- No changes to Footer Content ---- */
     /* Footer Content */
+    /* -------------- home.html ------------------------ */
+
+    /* -------------- contact.html ----------------------- */
+    .contact-section {
+        height: 575px;
+    }
+    
+    .contact-section #contact-header {
+        font-size: 16px;
+    }
+    
+    #contact-form label {
+        font-size: 13px;
+    }
+
+    #contact-form button {
+        width: 150px;
+        height: 50px;
+    }
+    /* -------------- contact.html ----------------------- */
 }
 
 @media(max-width: 320px) {
+    /* -------------- home.html ------------------------ */
     /* Nav Content */
     #company-logo {
         width: 80px;
@@ -588,5 +741,29 @@
         background-color: rgb(175, 124, 133);
     }
     /* Body Content */
+    /* -------------- home.html ------------------------ */
+
+    /* -------------- contact.html ----------------------- */
+    .contact-section {
+        height: 575px;
+    }
+    
+    .contact-section #contact-header {
+        font-size: 14px;
+    }
+    
+    #contact-form label {
+        font-size: 16px;
+    }
+
+    #contact-form button {
+        width: 150px;
+        height: 50px;
+    }
+
+    #contact-form textarea {
+        width: 275px;
+    }
+    /* -------------- contact.html ----------------------- */
 }
 /* Responsive Design */

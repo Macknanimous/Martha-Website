@@ -31,6 +31,7 @@ body {
     font-family: MarthaBusinessFont, sans-serif;
 }
 
+/* ------------- Home.html ---------------- */
 /* Nav Content */
 .nav-bar {
     position: relative;
@@ -108,24 +109,20 @@ body {
     flex-wrap: wrap;
     flex-grow: 1;
     flex-shrink: 0;
-    margin-top: 25px;
-    margin-bottom: 25px;
 }
 
 .home-product {
     display: flex;
     position: relative;
     height: 350px;
-    background-color: rgba(211, 211, 211, 0.65);
+    background-color: rgba(240, 255, 240, 0.65);
     border-radius: 5px;
     flex-direction: row;
     flex-basis: 45%;
     flex-shrink: 0;
     flex-grow: 1;
     justify-content: flex-start;
-    margin-bottom: 70px;
-    margin-right: 25px;
-    margin-left: 25px;
+    margin: 25px 25px 70px 25px;
 }
 
 .product-link #product-img{
@@ -218,4 +215,88 @@ body {
     color: rgb(226, 162, 173);
 }
 /* Footer Content */
+/* ------------- Home.html ---------------- */
 
+/* ------------- about.html ---------------- */
+.about-section {
+    flex-basis: 100%;
+    background-color: rgba(240, 255, 240, 0.65);
+    text-align: center;
+    margin: 25px 0;
+    height: 550px;
+}
+
+#about-header {
+    font-size: 30px;
+}
+
+#about-story {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+#about-story h4 {
+    margin: 0 200px;
+    padding: 10px
+}
+/* ------------- about.html ---------------- */
+
+/* ------------- contact.html ---------------- */
+.contact-section {
+    flex-basis: 100%;
+    background-color: rgba(240, 255, 240, 0.65);
+    text-align: center;
+    margin: 25px 0;
+    height: 550px;
+}
+
+.contact-section #contact-header {
+    font-size: 30px;
+}
+
+#contact-form label {
+    margin-left: 15px;
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+#contact-form [type="text"]{
+    height: 30px;
+    padding: 5px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+#contact-form textarea {
+    margin-top: 10px;
+    width: 675px;
+    height: 255px;
+    resize: none;
+    overflow: auto;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+#contact-form button {
+    margin-top: 10px;
+    background-color: rgb(247, 195, 227);
+    border: 2px solid rgb(226, 162, 173);
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    transition-property: background-color;
+    transition-duration: 250ms;
+}
+
+#contact-form button:hover {
+    background-color: rgb(226, 162, 173);
+}
+
+#contact-form button:active {
+    background-color: rgb(175, 124, 133);
+}
+/* ------------- contact.html ---------------- */
