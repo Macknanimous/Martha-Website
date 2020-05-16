@@ -32,15 +32,15 @@ body {
 }
 
 /* ------------- Home.html ---------------- */
-/* Nav Content */
-.nav-bar {
+/* Header Content */
+#nav-bar {
     position: relative;
     text-align: center;
     background-color: rgba(255, 204, 247, 0.747);
     padding-top: 15px;
 }
 
-#company-logo {
+#header-img {
     width: 150px;
     height: 150px;
 }
@@ -100,7 +100,7 @@ body {
     color: white;
     font-size: 20px;
 }
-/* Nav Content */
+/* Header Content */
 
 /* Body Content */
 .body {
@@ -109,6 +109,13 @@ body {
     flex-wrap: wrap;
     flex-grow: 1;
     flex-shrink: 0;
+}
+
+#video {
+    flex-basis: 55%;
+    flex-grow: 1;
+    height: 400px;
+    margin: 20px 500px;
 }
 
 .home-product {
@@ -193,7 +200,7 @@ body {
 /* Body Content */
 
 /* Footer Content */
-.footer {
+footer {
     background-color: rgba(103, 107, 96, 0.733);
     text-align: center;
     padding: 15px;
@@ -201,7 +208,7 @@ body {
     color: rgb(235, 241, 241);
 }
 
-.footer > a > i {
+footer > a > i {
     text-decoration: none;
     color: rgb(235, 241, 241);
     font-size: 25px;
@@ -211,7 +218,7 @@ body {
     transition-duration: 250ms;
 }
 
-.footer > a > i:hover {
+footer > a > i:hover {
     color: rgb(226, 162, 173);
 }
 /* Footer Content */
