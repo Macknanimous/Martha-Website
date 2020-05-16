@@ -268,7 +268,8 @@ footer > a > i:hover {
     font-size: 18px;
 }
 
-#contact-form [type="text"]{
+[type="text"], 
+[type="email"] {
     height: 30px;
     padding: 5px;
     margin-right: 50px;

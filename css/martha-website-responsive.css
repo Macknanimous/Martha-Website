@@ -102,7 +102,8 @@
         font-size: 22px;
     }
     
-    #contact-form [type="text"]{
+    [type="text"], 
+    [type="email"] {
         height: 40px;
         padding: 5px;
         margin-right: 50px;
